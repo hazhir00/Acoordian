@@ -1,0 +1,102 @@
+/* ? Imports */
+/* _______________________________________________________________ */
+
+/* ? Variables */
+:root {
+   /* Color Theme */
+
+   /* Typography */
+
+   /* Spacing */
+
+   /* Border Radius */
+
+   /* Shadows */
+}
+
+/* ? Color Theme for Dark mode goes here */
+/* .dark-mode {
+
+} */
+/* _______________________________________________________________ */
+/* !Main CSS */
+body {
+   height: 100vh;
+   background: linear-gradient(315deg, hsl(239, 87%, 20%) 30%, hsl(251, 33%, 67%));
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+main {
+   width: min(90%, 40rem);
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 1rem;
+   padding: 1rem;
+   border-radius: 1rem;
+   background-color: hsla(0, 0%, 100%, 0.4);
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.container {
+   width: 100%;
+   background: #fff;
+   border-radius: calc(1rem);
+   padding: 1rem;
+}
+
+.accordion-header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 1rem 0.5rem;
+   cursor: pointer;
+}
+
+.border-bottom {
+   border-bottom: 1px solid #ccc;
+}
+
+.accordion-header h2 {
+   font-size: 1.5rem;
+   font-weight: 500;
+}
+
+.accordion-header i {
+   font-size: 2rem;
+   transition: 0.3s ease-out;
+}
+
+.accordion-body {
+   max-height: 0;
+   overflow: hidden;
+   transition: 0.5s ease-out;
+}
+
+.show {
+   max-height: 50rem;
+   padding: 1rem 0.5rem 0;
+}
+
+.rotate {
+   transform: rotate(180deg);
+}
+
+/* _______________________________________________________________ */
+/* ? Media Queries */
+/* Different Screen Sizes 
+-Small Mobile = 320px
+-Medium Mobile = 375px
+-Large Mobile = 425px
+Tablet = 768px
+Laptop = 1024px
+Large Laptop = 1440px
+4K = 2560px
+*/
+
+/* @media() {
+} */
+/* _______________________________________________________________ */
